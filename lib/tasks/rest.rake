@@ -1,0 +1,2 @@
+namespace :rest do
+end

@@ -30,9 +30,8 @@
 /config/database.yml
 
 # Ignore env files
-.env
-.env.dev
-.env.prd
+/.env
 
 .DS_Store
 .tool-versions
+.env

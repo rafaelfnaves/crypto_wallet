@@ -9,6 +9,7 @@ class Api::V1::CoinsController < ApplicationController
 
   # GET /api/v1/coins/1
   def show
+    @coin = Coin.find_by_asset_id(params[:id])
     render json: @coin
   end
 

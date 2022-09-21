@@ -13,6 +13,3 @@ test:
   <<: *default
   database: crypto_wallet_test
 
-production:
-  <<: *default
-  host: <%= ENV.fetch('DATABASE_URL') %>
